@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage{fullpage,enumitem,amssymb,amsmath,xcolor,cancel,gensymb,hyperref,graphicx}
+\usepackage{indentfirst}
+\setlength{\parskip}{1em}
+
+
+\begin{document}
+
+\maketitle
+
+\section*{Review Questions}
+
+
+\section{How does regression differ from correlation?}
+
+The difference between these two statistical measurements is that regression attempts to establish how X causes Y to change and the results of the analysis will change if X and Y are swapped. With correlation, the X and Y variables are interchangeable.Also regression assumes X is fixed with no error, but with correlation, X and Y are typically both random variables.And last correlation is a single statistic, whereas regression produces an entire equation.
+
+\section{How does an algebraic line differ from a statistical line?}
+
+First of all there is no mathematical difference between the answers produced by these two lines.There is only a difference in the order in which the answer is written.In Algebra, the equation of a line is represented by 
+y = mx + b, where m is the slope and b is the y-intercept.In Statistics, the preferred equation of a line is represented by y = a + bx, where b is the slope and a is the y-intercept.
+
+\section{ Lines are characterized by their slope and intercept. What does the slope tell you about the line? What does the intercept tell you? What does a slope of 0 indicate?}
+
+Slope describes the steepness of a line and tells you information about the direction of the line on the coordinate plane.The intercept tells us the value at which the fitted line crosses the y-axis.The slope of 0 indicates that the position of the line is dependant on the intercept, is horizontal and parallel to x-axis.
+
+\section{What is ”squared” in a least squared regression line?}
+
+The X is squared in a least squared regression line.
+
+
+\section{Suppose the relation between AGE (years) and HEIGHT (inches) in an adolescent population is described by this model: = 46 + 1.5X. Interpret the slope of this model.Then, predict the average height of a 10 year-old}
+
+The slope of this model tells us the rate of change of y(HEIGHT) relative to x(AGE). The slope is 1.5, so y is changing 1.5 as fast as x. The average height of 10 years old is 61 inches.
+
+
+\section{What t value do you use when calculating a 95\% confidence interval for b when n = 25?}
+df=n-1=25-1=24
+
+a=(1 – 0.95) / 2 = 0.025
+
+And from the table with df=24 and a=0.025 we have t=2.064
+
+\section{What symbol is used to denote the slope in the data?}
+
+Slope in the data is often denoted by the letter m.
+
+\section{What symbol is used to denote the slope in the population?}
+
+Slope in the in the population is often denoted by the letter $\beta1$.
+
+\section{The Normality and equal variance assumptions for regression refer to the distribution of the residuals}
+
+Yes ,in normality we draw a histogram of the residuals, and then examine the normality of the residual. In equality of variance we look at the scatter plot which we drew for linearity ,if the residuals do not fan out in a triangular fashion that means that the equal variance assumption is met.
+
+\section{What is a residual?}
+
+A residual is the vertical distance between a data point and the regression line. Each data point has one residual. 
+
+\section{What distributional conditions are necessary to help infer population slope beta?}
+
+Four assumptions must hold linearity, independence, normality and equal variance 
+
+\section{Assuming that the 90 \% confidence interval of the slope contains zero (0). What that implies?}
+
+If the interval includes 0, that means the actual coefficient value can be zero and that means that the predictor has no relationship with the response variable or it is insignificant in terms of its influence on response variable.
+
+
+\end{document}
